@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tran Trong Phuc - Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-dark: #1f2937;
+            --text-light: #4b5563;
+            --bg-light: #f8fafc;
+            --bg-card: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+            font-weight: 700;
+            letter-spacing: -0.05em;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+        }
+
+        .contact-info li a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info li a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Main Layout */
+        .main-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Card Styles */
+        .section-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Timeline / Education Styles */
+        .timeline-item {
+            position: relative;
+            padding-left: 20px;
+            border-left: 2px solid var(--border-color);
+            margin-bottom: 25px;
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 6px;
+            width: 10px;
+            height: 10px;
+            background: var(--primary-color);
+            border-radius: 50%;
+        }
+
+        .time-period {
+            font-size: 0.85rem;
+            color: #94a3b8;
+            font-weight: 500;
+        }
+
+        .degree-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .institution {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        /* Projects */
+        .project-item {
+            margin-bottom: 30px;
+        }
+
+        .project-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .project-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .project-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        .project-details {
+            list-style-type: none;
+        }
+
+        .project-details li {
+            color: var(--text-light);
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 15px;
+            font-size: 0.95rem;
+        }
+
+        .project-details li::before {
+            content: "•";
+            color: var(--primary-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .tools-badge {
+            margin-top: 10px;
+            font-size: 0.85rem;
+            color: var(--text-light);
+            background: var(--bg-light);
+            padding: 6px 12px;
+            border-radius: 6px;
+            display: inline-block;
+            border: 1px solid var(--border-color);
+        }
+
+        /* Skills & Certificates Groups */
+        .skill-group {
+            margin-bottom: 20px;
+        }
+
+        .skill-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .skill-label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            margin-bottom: 5px;
+        }
+
+        .skill-value {
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
+
+        .cert-item {
+            margin-bottom: 15px;
+        }
+
+        .cert-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .cert-title {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 40px;
+            background: var(--bg-card);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Tran Trong Phuc</h1>
+                <ul class="contact-info">
+                    <li><a href="mailto:tranphuc.learn@gmail.com"><i class="fa-regular fa-envelope"></i> tranphuc.learn@gmail.com</a></li>
+                    <li><a href="tel:+840389425950"><i class="fa-solid fa-phone"></i> +84 0389425950</a></li>
+                    <li><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        
+        <main>
+            <section class="section-card">
+                <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+                
+                <div class="timeline-item">
+                    <div class="time-period">May 2026 - Present</div>
+                    <div class="degree-title">Master's Degree</div>
+                    <div class="institution">Can Tho University</div>
+                    <div class="skill-value">GPA: 3.65/4.0</div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="time-period">Oct 2022 - Sep 2025</div>
+                    <div class="degree-title">Bachelor's Degree</div>
+                    <div class="institution">Can Tho University</div>
+                    <div class="skill-value">GPA: 3.65/4.0</div>
+                    <div class="skill-value" style="margin-top: 5px; font-style: italic;">
+                        Applied Mathematics: Analysis of Statistical Data, Machine Learning, Time Series.
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-card">
+                <h2 class="section-title"><i class="fa-solid fa-code"></i> Personal Projects</h2>
+                
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-title">Churn Customer Report</div>
+                        <a href="https://github.com" class="project-link" target="_blank"><i class="fa-brands fa-github"></i> github</a>
+                    </div>
+                    <ul class="project-details">
+                        <li>The customer churn rate reached 20.37%, meaning one out of every five customers leaves. The report indicates that the Female customer segment, customers in Germany, and the segment with a credit score below 400 show a very high churn rate.</li>
+                        <li>A number of classification algorithms were built, achieving an accuracy of 76.25% and an Area Under the Curve (AUC) of 0.811 using the Support Vector Machine (SVM) algorithm in R.</li>
+                    </ul>
+                    <div class="tools-badge"><strong>Tools Used:</strong> R, Power BI</div>
+                </div>
+
+                <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 20px 0;">
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-title">EDA with TikTok Dataset</div>
+                        <a href="https://github.com" class="project-link" target="_blank"><i class="fa-brands fa-github"></i> github</a>
+                    </div>
+                    <ul class="project-details">
+                        <li>Exploratory data analysis (EDA) with the TikTok dataset, creating box plots and histograms, and identifying outliers.</li>
+                        <li>Identifying and conducting statistical hypotheses and statistical analysis required for the TikTok classification project.</li>
+                        <li>Performing logistic regression using verified status (verified_status) as the outcome variable.</li>
+                    </ul>
+                    <div class="tools-badge"><strong>Tools Used:</strong> R, Tableau</div>
+                </div>
+            </section>
+        </main>
+
+        <aside>
+            <section class="section-card">
+                <h2 class="section-title"><i class="fa-solid fa-gears"></i> Skills</h2>
+                
+                <div class="skill-group">
+                    <div class="skill-label">Data Analytics</div>
+                    <div class="skill-value">Clean, Exploration, and Visualization Data.</div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-label">Data Sciences</div>
+                    <div class="skill-value">Statistics, Machine Learning.</div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-label">Tools</div>
+                    <div class="skill-value">Power BI, SPSS, Tableau.</div>
+                </div>
+
+                <div class="skill-group">
+                    <div class="skill-label">Programming Language</div>
+                    <div class="skill-value">R (specialized), Python (basic).</div>
+                </div>
+            </section>
+
+            <section class="section-card">
+                <h2 class="section-title"><i class="fa-solid fa-certificate"></i> Certificates</h2>
+                
+                <div class="cert-item">
+                    <div class="time-period">Apr - May 2025</div>
+                    <div class="cert-title">Online Certificate Coursera</div>
+                    <div class="skill-value">Google Data Analytics</div>
+                </div>
+
+                <div class="cert-item" style="margin-top: 15px;">
+                    <div class="time-period">June - July 2025</div>
+                    <div class="cert-title">Online Certificate Coursera</div>
+                    <div class="skill-value">Google Advance Data Analytics</div>
+                </div>
+            </section>
+        </aside>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Tran Trong Phuc. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
