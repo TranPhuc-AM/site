@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "name": "TRAN-TRONG PHUC",
+    "titles": ["Data Scientist", "Master student Applied Mathematics", "Freelancer"],
+    "description": "Curriculum Vitae."
+  },
+  "about": {
+    "description": "Hello! I am a data scientist currently pursuing graduate studies in Applied Mathematics. I am always eager to share knowledge and bring value to others.",
+    "careerGoal": "Become a Senior Data Scientist or a College/University lecturer in statistics and data.",
+    "email": "phucm5826011@gstudent.ctu.edu.vn",
+    "phone": "+84 389 452 950",
+    "address": "Can Tho, Viet Nam",
+    "dob": "18/06/2004",
+    "website": "www.yourdomain.com"
+  },
+  "skills": [
+    { "name": "R language programing", "level": 85 },
+    { "name": "Probability & Statistics", "level": 85 },
+    { "name": "React / Next.js", "level": 80 },
+    { "name": "Self-learning & Research", "level": 75},
+    { "name": "Power BI, Tableau", "level": 65 }
+  ],
+  "education": [
+    {
+      "school": "Can Tho University",
+      "major": "Master of Science in Applied Mathematics",
+      "knowledge": "Machine learning, Multivariate analysis",
+      "gpa": "Updating...",
+      "period": "May 2026 - Persent"
+    },
+    {
+      "school": "Can Tho University",
+      "major": "Bachelor's Degree in Applied Mathematics",
+      "knowledge": "Time series, Medical statistics",
+      "gpa": "3.65/4.0",
+      "period": "Oct 2022 - Oct 2025"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Corp Solution",
+      "role": "Senior Frontend Developer",
+      "period": "2023 - Hiện tại",
+      "description": "Dẫn dắt team frontend gồm 5 thành viên. Xây dựng lại toàn bộ kiến trúc hệ thống CRM bằng React và Tailwind.",
+      "achievements": "Tăng 40% tốc độ tải trang, giảm 20% bounce rate."
+    },
+    {
+      "company": "Creative Agency VN",
+      "role": "Web Developer & Designer",
+      "period": "May 2020 - 2023",
+      "description": "Thiết kế và lập trình website cho các khách hàng doanh nghiệp. Tối ưu hóa SEO và UX/UI.",
+      "achievements": "Hoàn thành hơn 30 dự án đúng deadline với sự hài lòng 100% từ khách hàng."
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-Commerce Platform",
+      "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=500&q=80",
+      "description": "Nền tảng thương mại điện tử với hệ thống giỏ hàng, thanh toán và quản lý đơn hàng realtime.",
+      "tech": ["React", "NodeJS", "MongoDB", "Stripe"],
+      "demo": "#",
+      "github": "#"
+    },
+    {
+      "name": "Task Management Dashboard",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80",
+      "description": "Ứng dụng quản lý công việc với giao diện kéo thả mượt mà, hỗ trợ làm việc nhóm.",
+      "tech": ["Vue.js", "Firebase", "Tailwind CSS"],
+      "demo": "#",
+      "github": "#"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Google Data Analytics",
+      "issuer": "Google on Coursera",
+      "year": "Apr - May 2025"
+    },
+    {
+      "name": "Google Advance Data Analytics",
+      "issuer": "Google on Coursera",
+      "year": "June - July 2025"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Giải Nhất Hackathon Mùa Xuân",
+      "competition": "VN Tech Hackathon",
+      "year": "2023"
+    }
+  ],
+  "socials": {
+    "facebook": "#",
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/",
+    "email": "mailto:hello@yourdomain.com",
+    "phone": "tel:+84123456789"
+  }
+}
