@@ -24,6 +24,7 @@
     {
       "school": "Can Tho University",
       "major": "Master of Science in Applied Mathematics",
+      "thesis": "Updating...",
       "knowledge": "Machine learning, Multivariate analysis",
       "gpa": "Updating...",
       "period": "May 2026 - Persent"
@@ -31,6 +32,7 @@
     {
       "school": "Can Tho University",
       "major": "Bachelor's Degree in Applied Mathematics",
+      "thesis": "Differential Calculus in Normed Spaces",
       "knowledge": "Time series, Medical statistics",
       "gpa": "3.65/4.0",
       "period": "Oct 2022 - Oct 2025"
@@ -54,20 +56,21 @@
   ],
   "projects": [
     {
-      "name": "E-Commerce Platform",
-      "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=500&q=80",
-      "description": "Nền tảng thương mại điện tử với hệ thống giỏ hàng, thanh toán và quản lý đơn hàng realtime.",
-      "tech": ["React", "NodeJS", "MongoDB", "Stripe"],
+      "name": "Revenue Forecast: Coffee Sales",
+      "image": "/assets/cfsale.png",
+      "description": "Developing a time series forecasting model using SARIMA with daily frequency data; evaluation on the test set yielded a MAPE of 24.65%.",
+      "tech": ["Kaggle", "R"],
       "demo": "#",
-      "github": "#"
+      "github": "https://tranphuc-am.github.io/Personal-Project/CfPrice_Ver1.html"
     },
     {
-      "name": "Task Management Dashboard",
+      "name": "Churn Customer Report",
       "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80",
-      "description": "Ứng dụng quản lý công việc với giao diện kéo thả mượt mà, hỗ trợ làm việc nhóm.",
-      "tech": ["Vue.js", "Firebase", "Tailwind CSS"],
+
+      "description": "The customer churn rate reached 20.37%, meaning one out of every five customers leaves. The report indicates that the Female customer segment, customers in Germany, and the segment with a credit score below 400 show a very high churn rate.",
+      "tech": ["R", "Power BI"],
       "demo": "#",
-      "github": "#"
+      "github": "https://github.com/TranPhuc-AM/Churn_customer/blob/main/PowerBI_dash.pdf"
     }
   ],
   "certificates": [

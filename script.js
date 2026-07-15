@@ -98,6 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="timeline-date">${item.period}</div>
                     <h3 class="timeline-title">${item.major}</h3>
                     <h4 class="timeline-subtitle">${item.school}</h4>
+                    <p class="timeline-subtitle"><strong>Thesis title:</strong> ${item.thesis}</p>
                     <p class="timeline-desc"><strong>Knowledge:</strong> ${item.knowledge}</p>
                     <p class="timeline-desc"><strong>GPA:</strong> ${item.gpa}</p>
                 </div>
@@ -135,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <i class="fas fa-certificate award-icon"></i>
                 <div class="award-info">
                     <h4>${cert.name}</h4>
-                    <p>${cert.issuer} - ${cert.year}</p>
+                    <p>${cert.issuer} | ${cert.year}</p>
                 </div>
             </div>
         `).join('');

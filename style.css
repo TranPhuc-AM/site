@@ -1,14 +1,14 @@
-/* ================= VARIABLES (CYBERPUNK THEME) ================= */
+/* ================= VARIABLES (DEEP OCEAN THEME) ================= */
 :root {
-    --primary: #D946EF;       /* Hồng Fuchsia */
-    --secondary: #8B5CF6;     /* Tím Violet */
-    --bg: #09090B;            /* Đen sâu thẳm */
-    --card: #18181B;          /* Xám đen huyền bí */
-    --text: #FAFAFA;
-    --text-muted: #A1A1AA;    
-    --accent: #22D3EE;        /* Xanh Cyan Neon làm điểm nhấn bứt phá */
-    --glass-bg: rgba(24, 24, 27, 0.75);
-    --glass-border: rgba(34, 211, 238, 0.25);
+    --primary: #2563EB;       /* Xanh Royal Blue */
+    --secondary: #0284C7;     /* Xanh Light Blue */
+    --bg: #020617;            /* Xanh Navy cực tối (nhìn như đen) */
+    --card: #0F172A;          /* Nền card xanh biển đêm */
+    --text: #F8FAFC;
+    --text-muted: #94A3B8;
+    --accent: #38BDF8;        /* Xanh da trời sáng (Sky) */
+    --glass-bg: rgba(15, 23, 42, 0.7);
+    --glass-border: rgba(56, 189, 248, 0.15);
     --transition: all 0.3s ease;
 }
 
