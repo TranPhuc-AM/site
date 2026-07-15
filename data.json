@@ -1,7 +1,7 @@
 {
   "hero": {
     "name": "TRAN-TRONG PHUC",
-    "titles": ["Data Scientist", "Master student Applied Mathematics", "Freelancer"],
+    "titles": ["Data Scientist", "Master's student in Applied Mathematics", "Freelancer"],
     "description": "Curriculum Vitae."
   },
   "about": {
@@ -14,10 +14,10 @@
     "website": "www.yourdomain.com"
   },
   "skills": [
-    { "name": "R language programing", "level": 85 },
+    { "name": "R language programming", "level": 85 },
     { "name": "Probability & Statistics", "level": 85 },
-    { "name": "React / Next.js", "level": 80 },
     { "name": "Self-learning & Research", "level": 75},
+    { "name": "SQL", "level": 70 },
     { "name": "Power BI, Tableau", "level": 65 }
   ],
   "education": [
@@ -27,7 +27,7 @@
       "thesis": "Updating...",
       "knowledge": "Machine learning, Multivariate analysis",
       "gpa": "Updating...",
-      "period": "May 2026 - Persent"
+      "period": "May 2026 - Present"
     },
     {
       "school": "Can Tho University",
@@ -57,7 +57,7 @@
   "projects": [
     {
       "name": "Revenue Forecast: Coffee Sales",
-      "image": "/assets/cfsale.png",
+      "image": "assets/cfsale.png",
       "description": "Developing a time series forecasting model using SARIMA with daily frequency data; evaluation on the test set yielded a MAPE of 24.65%.",
       "tech": ["Kaggle", "R"],
       "demo": "#",
@@ -80,7 +80,7 @@
       "year": "Apr - May 2025"
     },
     {
-      "name": "Google Advance Data Analytics",
+      "name": "Google Advanced Data Analytics",
       "issuer": "Google on Coursera",
       "year": "June - July 2025"
     }
@@ -94,9 +94,9 @@
   ],
   "socials": {
     "facebook": "#",
-    "github": "https://github.com/",
-    "linkedin": "https://linkedin.com/",
-    "email": "mailto:hello@yourdomain.com",
-    "phone": "tel:+84123456789"
+    "github": "https://github.com/TranPhuc-AM",
+    "linkedin": "https://www.linkedin.com/in/tran-trong-phuc-0a6b74353/",
+    "email": "mailto:phucm5826011@gstudent.ctu.edu.vn",
+    "phone": "tel:+84389452950"
   }
 }
