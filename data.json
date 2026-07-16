@@ -1,7 +1,7 @@
 {
   "hero": {
     "name": "TRAN-TRONG PHUC",
-    "titles": ["Data Scientist", "Master student Applied Mathematics", "Freelancer"],
+    "titles": ["Data Scientist", "Master's student in Applied Mathematics", "Freelancer"],
     "description": "Curriculum Vitae."
   },
   "about": {
@@ -15,7 +15,7 @@
     "orcid": "0009-0009-7688-5507"
   },
   "skills": [
-    { "name": "R language programing", "level": 85 },
+    { "name": "R language programming", "level": 85 },
     { "name": "Probability & Statistics", "level": 85 },
     { "name": "Self-learning & Research", "level": 75},
     { "name": "SQL", "level": 70 },
@@ -28,7 +28,7 @@
       "thesis": "Updating...",
       "knowledge": "Machine learning, Multivariate analysis",
       "gpa": "Updating...",
-      "period": "May 2026 - Persent"
+      "period": "May 2026 - Present"
     },
     {
       "school": "Can Tho University",
@@ -95,9 +95,9 @@
   ],
   "socials": {
     "facebook": "#",
-    "github": "https://github.com/",
-    "linkedin": "https://linkedin.com/",
-    "email": "mailto:hello@yourdomain.com",
-    "phone": "tel:+84123456789"
+    "github": "https://github.com/TranPhuc-AM",
+    "linkedin": "https://www.linkedin.com/in/tran-trong-phuc-0a6b74353/",
+    "email": "mailto:tranphuc.job@gmail.com",
+    "phone": "tel:+84389452950"
   }
 }
