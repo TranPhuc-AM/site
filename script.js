@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                  <li><i class="fas fa-phone"></i> ${about.phone}</li>
                  <li><i class="fas fa-map-marker-alt"></i> ${about.address}</li>
                  <li><i class="fas fa-calendar-alt"></i> ${about.dob}</li>
+                 <li><i class="fab fa-orcid"></i> <a href="https://orcid.org/0009-0009-7688-5507">${about.orcid}</a></li>
              </ul>
          `;
          

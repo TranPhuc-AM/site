@@ -308,7 +308,7 @@ header.sticky {
 /* ================= ABOUT SECTION ================= */
 .about-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 40px;
 }
 
@@ -319,7 +319,7 @@ header.sticky {
 
 .about-info ul {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 15px;
 }
 

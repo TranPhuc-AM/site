@@ -1,20 +1,21 @@
 {
   "hero": {
     "name": "TRAN-TRONG PHUC",
-    "titles": ["Data Scientist", "Master's student in Applied Mathematics", "Freelancer"],
+    "titles": ["Data Scientist", "Master student Applied Mathematics", "Freelancer"],
     "description": "Curriculum Vitae."
   },
   "about": {
     "description": "Hello! I am a data scientist currently pursuing graduate studies in Applied Mathematics. I am always eager to share knowledge and bring value to others.",
     "careerGoal": "Become a Senior Data Scientist or a College/University lecturer in statistics and data.",
-    "email": "phucm5826011@gstudent.ctu.edu.vn",
+    "email": "tranphuc.job@gmail.com",
     "phone": "+84 389 452 950",
     "address": "Can Tho, Viet Nam",
     "dob": "18/06/2004",
-    "website": "www.yourdomain.com"
+    "website": "www.yourdomain.com",
+    "orcid": "0009-0009-7688-5507"
   },
   "skills": [
-    { "name": "R language programming", "level": 85 },
+    { "name": "R language programing", "level": 85 },
     { "name": "Probability & Statistics", "level": 85 },
     { "name": "Self-learning & Research", "level": 75},
     { "name": "SQL", "level": 70 },
@@ -27,7 +28,7 @@
       "thesis": "Updating...",
       "knowledge": "Machine learning, Multivariate analysis",
       "gpa": "Updating...",
-      "period": "May 2026 - Present"
+      "period": "May 2026 - Persent"
     },
     {
       "school": "Can Tho University",
@@ -80,7 +81,7 @@
       "year": "Apr - May 2025"
     },
     {
-      "name": "Google Advanced Data Analytics",
+      "name": "Google Advance Data Analytics",
       "issuer": "Google on Coursera",
       "year": "June - July 2025"
     }
@@ -94,9 +95,9 @@
   ],
   "socials": {
     "facebook": "#",
-    "github": "https://github.com/TranPhuc-AM",
-    "linkedin": "https://www.linkedin.com/in/tran-trong-phuc-0a6b74353/",
-    "email": "mailto:phucm5826011@gstudent.ctu.edu.vn",
-    "phone": "tel:+84389452950"
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/",
+    "email": "mailto:hello@yourdomain.com",
+    "phone": "tel:+84123456789"
   }
 }
