@@ -1,6 +1,6 @@
 {
   "hero": {
-    "name": "TRAN-TRONG PHUC",
+    "name": "TRONG-PHUC TRAN",
     "titles": ["Data Scientist", "Master's student in Applied Mathematics", "Freelancer"],
     "description": "Curriculum Vitae."
   },
@@ -15,11 +15,22 @@
     "orcid": "0009-0009-7688-5507"
   },
   "skills": [
-    { "name": "R language programming", "level": 85 },
-    { "name": "Probability & Statistics", "level": 85 },
-    { "name": "Self-learning & Research", "level": 75},
-    { "name": "SQL", "level": 70 },
-    { "name": "Power BI, Tableau", "level": 65 }
+    {
+      "category": "Core Mathematics",
+      "items": ["Differential Calculus", "Statistics Analysis", "Multivariate Analysis", "Time Series Analysis"]
+    },
+    {
+      "category": "Language",
+      "items": ["R Programming", "Python", "SQL / MySQL", "JavaScript", "HTML5 / CSS3"]
+    },
+    {
+      "category": "Development tools",
+      "items": ["GitHub", "Power BI / Tableau", "VS Code"]
+    },
+    {
+      "category": "Literate Programming",
+      "items": ["R Markdown / Quarto", "Jupyter Notebook", "LaTeX / Prism"]
+    }
   ],
   "education": [
     {

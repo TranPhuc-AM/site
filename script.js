@@ -64,14 +64,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderSkills(skills) {
         const container = document.getElementById('skills-container');
-        container.innerHTML = skills.map(skill => `
-            <div class="skill-item">
-                <div class="skill-info">
-                    <span>${skill.name}</span>
-                    <span>${skill.level}%</span>
-                </div>
-                <div class="progress-bar">
-                    <div class="progress" data-width="${skill.level}%"></div>
+        if (!container) return;
+        
+        container.innerHTML = skills.map(group => `
+            <div class="skill-card glass-card">
+                <h3 class="skill-category-title">${group.category}</h3>
+                <div class="skill-tags">
+                    ${group.items.map(item => `<span class="skill-tag">${item}</span>`).join('')}
                 </div>
             </div>
         `).join('');

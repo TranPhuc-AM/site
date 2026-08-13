@@ -335,39 +335,55 @@ header.sticky {
 
 /* ================= SKILLS ================= */
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
 }
 
-.skill-item {
-    background: var(--card);
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid var(--glass-border);
-}
-
-.skill-info {
+.skill-card {
+    padding: 24px;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    flex-direction: column;
+    gap: 16px;
+    transition: var(--transition);
+}
+
+.skill-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-4px);
+}
+
+.skill-category-title {
+    font-size: 1.15rem;
+    color: var(--accent);
+    font-weight: 600;
+    border-bottom: 1px solid var(--glass-border);
+    padding-bottom: 8px;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: rgba(56, 189, 248, 0.08);
+    color: var(--text);
+    border: 1px solid var(--glass-border);
+    padding: 6px 14px;
+    border-radius: 5px;
+    font-size: 0.88rem;
     font-weight: 500;
+    transition: var(--transition);
 }
 
-.progress-bar {
-    width: 100%;
-    height: 8px;
-    background: #000;
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.progress {
-    height: 100%;
-    background: linear-gradient(to right, var(--primary), var(--secondary));
-    width: 0; /* Animated by JS */
-    border-radius: 4px;
-    transition: width 1.5s ease-in-out;
+.skill-tag:hover {
+    background: var(--primary);
+    border-color: var(--accent);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
 /* ================= TIMELINE (Exp & Edu) ================= */
