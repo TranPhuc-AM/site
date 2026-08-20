@@ -1,109 +1,307 @@
 {
-  "hero": {
-    "name": "TRONG-PHUC TRAN",
-    "titles": ["Data Scientist", "Master's student in Applied Mathematics", "Freelancer"],
-    "description": "Curriculum Vitae."
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "education": "Education",
+      "research": "Research",
+      "skills": "Skills",
+      "projects": "Projects",
+      "certificates": "Certificates",
+      "contact": "Contact"
+    },
+    "hero": {
+      "name": "TRONG-PHUC TRAN",
+      "titles": ["Data Scientist", "Graduate Student in Applied Mathematics", "Research Assistant"],
+      "description": "Focused on Applied Mathematics, Multivariate Analysis, and Data Science solutions.",
+      "downloadCv": "Download CV",
+      "contactBtn": "Contact"
+    },
+    "about": {
+      "title": "About",
+      "titleSpan": "Me",
+      "description": "Hello! I am a Data Scientist currently pursuing graduate studies in Applied Mathematics at Can Tho University. My focus lies at the intersection of mathematical rigor and modern data analytics.",
+      "careerGoalLabel": "Research Target:",
+      "careerGoal": "Become a Senior Data Scientist / Applied Mathematician specializing in Statistical Modeling and Machine Learning.",
+      "email": "tranphuc.job@gmail.com",
+      "phone": "+84 389 452 950",
+      "address": "Can Tho, Vietnam",
+      "dob": "18/06/2004",
+      "orcid": "0009-0009-7688-5507"
+    },
+    "skills": {
+      "title": "Technical",
+      "titleSpan": "Skills",
+      "categories": [
+        {
+          "category": "Core Mathematics",
+          "items": ["Functional analysis", "Metric space theory", "Statistics Analysis", "Multivariate Analysis", "Time Series Analysis"]
+        },
+        {
+          "category": "Language",
+          "items": ["R Programming", "Python", "Julia", "SQL / MySQL", "JavaScript", "HTML5 / CSS3"]
+        },
+        {
+          "category": "Development tools",
+          "items": ["GitHub", "Power BI / Tableau", "VS Code"]
+        },
+        {
+          "category": "Literate Programming",
+          "items": ["R Markdown / Quarto", "Jupyter Notebook", "LaTeX / Prism"]
+        }
+      ]
+    },
+    "education": {
+      "title": "Academic",
+      "titleSpan": "Background",
+      "labels": {
+        "thesis": "Thesis",
+        "focus": "Focus",
+        "gpa": "GPA"
+      },
+      "items": [
+        {
+          "school": "Can Tho University",
+          "major": "Master of Science in Applied Mathematics",
+          "thesis": "Updating...",
+          "knowledge": "Machine Learning, Multivariate Analysis, Advanced Statistics",
+          "gpa": "Updating...",
+          "period": "May 2026 - Present"
+        },
+        {
+          "school": "Can Tho University",
+          "major": "Bachelor of Science in Applied Mathematics",
+          "thesis": "Differential Calculus in Normed Spaces",
+          "knowledge": "Time Series Analysis, Medical Statistics, Real Analysis",
+          "gpa": "3.65 / 4.0",
+          "period": "Oct 2022 - Oct 2025"
+        }
+      ]
+    },
+    "research": {
+      "title": "Research",
+      "titleSpan": "portfolio",
+      "labels": {
+        "journal": "Journal",
+        "abstract": "Abstract",
+        "keyword": "Keyword"
+      },
+      "items": [
+        {
+          "journal": "Searching...",
+          "name": "Developing a parameter search algorithm for the SARIMA model",
+          "asbtracs": "",
+          "key": ["SARIMA", "gird search", "step-wise search", "optimization parameter"],
+          "status": "Currently being implemented",
+          "view": "#"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Proj",
+      "titleSpan": "ects",
+      "items": [
+        {
+          "name": "Revenue Forecast: Coffee Sales",
+          "image": "assets/cfsale.png",
+          "description": "Developing a time series forecasting model using SARIMA with daily frequency data; evaluation yielded a MAPE of 24.65%.",
+          "tech": ["Kaggle", "R", "SARIMA"],
+          "demo": "#",
+          "github": "https://tranphuc-am.github.io/Personal-Project/CfPrice_Ver1.html"
+        },
+        {
+          "name": "Churn Customer Analytical Report",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80",
+          "description": "Statistical breakdown of customer churn rates (20.37%). Identified high-churn demographics using multivariate segmentation.",
+          "tech": ["R", "Power BI", "EDA"],
+          "demo": "#",
+          "github": "https://github.com/TranPhuc-AM/Churn_customer/blob/main/PowerBI_dash.pdf"
+        }
+      ]
+    },
+    "certificates": {
+      "title": "Certifications &",
+      "titleSpan": "Awards",
+      "items": [
+        {
+          "name": "Google Advanced Data Analytics Professional Certificate",
+          "issuer": "Google on Coursera",
+          "period": "Jun 2025 - Jul 2025",
+          "credentialId": "Verified Credential",
+          "details": "Focused on predictive modeling, regression analysis, statistical methods, and Python (Pandas, NumPy, Scikit-learn)."
+        },
+        {
+          "name": "Google Data Analytics Professional Certificate",
+          "issuer": "Google on Coursera",
+          "period": "Apr 2025 - May 2025",
+          "credentialId": "Verified Credential",
+          "details": "Covered data cleaning, visualization with Tableau, SQL query optimization, and quantitative problem-solving."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "titleSpan": "Information",
+      "subtitle": "Always open to academic collaboration and quantitative research inquiries.",
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "subjectPlaceholder": "Subject",
+      "messagePlaceholder": "Message / Inquiry details...",
+      "sendBtn": "Send Message"
+    }
   },
-  "about": {
-    "description": "Hello! I am a data scientist currently pursuing graduate studies in Applied Mathematics. I am always eager to share knowledge and bring value to others.",
-    "careerGoal": "Become a Senior Data Scientist or a College/University lecturer in statistics and data.",
-    "email": "tranphuc.job@gmail.com",
-    "phone": "+84 389 452 950",
-    "address": "Can Tho, Viet Nam",
-    "dob": "18/06/2004",
-    "website": "www.yourdomain.com",
-    "orcid": "0009-0009-7688-5507"
-  },
-  "skills": [
-    {
-      "category": "Core Mathematics",
-      "items": ["Differential Calculus", "Statistics Analysis", "Multivariate Analysis", "Time Series Analysis"]
-    },
-    {
-      "category": "Language",
-      "items": ["R Programming", "Python", "SQL / MySQL", "JavaScript", "HTML5 / CSS3"]
-    },
-    {
-      "category": "Development tools",
-      "items": ["GitHub", "Power BI / Tableau", "VS Code"]
-    },
-    {
-      "category": "Literate Programming",
-      "items": ["R Markdown / Quarto", "Jupyter Notebook", "LaTeX / Prism"]
-    }
-  ],
-  "education": [
-    {
-      "school": "Can Tho University",
-      "major": "Master of Science in Applied Mathematics",
-      "thesis": "Updating...",
-      "knowledge": "Machine learning, Multivariate analysis",
-      "gpa": "Updating...",
-      "period": "May 2026 - Present"
-    },
-    {
-      "school": "Can Tho University",
-      "major": "Bachelor's Degree in Applied Mathematics",
-      "thesis": "Differential Calculus in Normed Spaces",
-      "knowledge": "Time series, Medical statistics",
-      "gpa": "3.65/4.0",
-      "period": "Oct 2022 - Oct 2025"
-    }
-  ],
-  "experience": [
-    {
-      "company": "Tech Corp Solution",
-      "role": "Senior Frontend Developer",
-      "period": "2023 - Hiện tại",
-      "description": "Dẫn dắt team frontend gồm 5 thành viên. Xây dựng lại toàn bộ kiến trúc hệ thống CRM bằng React và Tailwind.",
-      "achievements": "Tăng 40% tốc độ tải trang, giảm 20% bounce rate."
-    },
-    {
-      "company": "Creative Agency VN",
-      "role": "Web Developer & Designer",
-      "period": "May 2020 - 2023",
-      "description": "Thiết kế và lập trình website cho các khách hàng doanh nghiệp. Tối ưu hóa SEO và UX/UI.",
-      "achievements": "Hoàn thành hơn 30 dự án đúng deadline với sự hài lòng 100% từ khách hàng."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Revenue Forecast: Coffee Sales",
-      "image": "assets/cfsale.png",
-      "description": "Developing a time series forecasting model using SARIMA with daily frequency data; evaluation on the test set yielded a MAPE of 24.65%.",
-      "tech": ["Kaggle", "R"],
-      "demo": "#",
-      "github": "https://tranphuc-am.github.io/Personal-Project/CfPrice_Ver1.html"
-    },
-    {
-      "name": "Churn Customer Report",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80",
 
-      "description": "The customer churn rate reached 20.37%, meaning one out of every five customers leaves. The report indicates that the Female customer segment, customers in Germany, and the segment with a credit score below 400 show a very high churn rate.",
-      "tech": ["R", "Power BI"],
-      "demo": "#",
-      "github": "https://github.com/TranPhuc-AM/Churn_customer/blob/main/PowerBI_dash.pdf"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Google Data Analytics",
-      "issuer": "Google on Coursera",
-      "year": "Apr - May 2025"
+  "vi": {
+    "nav": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "skills": "Kỹ năng",
+      "education": "Học vấn",
+      "research": "Nghiên cứu",
+      "projects": "Dự án",
+      "certificates": "Chứng chỉ",
+      "contact": "Liên hệ"
     },
-    {
-      "name": "Google Advance Data Analytics",
-      "issuer": "Google on Coursera",
-      "year": "June - July 2025"
+    "hero": {
+      "name": "TRẦN TRỌNG PHÚC",
+      "titles": ["Data Scientist", "Học viên Cao học Toán ứng dụng", "Nghiên cứu viên"],
+      "description": "Chuyên sâu về Toán ứng dụng, Phân tích đa biến và Giải pháp Khoa học dữ liệu.",
+      "downloadCv": "Tải CV",
+      "contactBtn": "Liên hệ"
+    },
+    "about": {
+      "title": "Giới",
+      "titleSpan": "thiệu",
+      "description": "Xin chào! Tôi là một Nhà khoa học dữ liệu đang theo học chương trình Thạc sĩ Toán ứng dụng tại Đại học Cần Thơ. Định hướng của tôi là kết hợp tính chính xác của toán học với các công cụ phân tích dữ liệu hiện đại.",
+      "careerGoalLabel": "Mục tiêu Nghiên cứu:",
+      "careerGoal": "Trở thành Senior Data Scientist / Chuyên gia Toán ứng dụng tập trung vào Mô hình hóa Thống kê và Máy học.",
+      "email": "tranphuc.job@gmail.com",
+      "phone": "+84 389 452 950",
+      "address": "Cần Thơ, Việt Nam",
+      "dob": "18/06/2004",
+      "orcid": "0009-0009-7688-5507"
+    },
+    "skills": {
+      "title": "Kỹ năng",
+      "titleSpan": "Chuyên môn",
+      "categories": [
+        {
+          "category": "Toán học Nền tảng",
+          "items": ["Giải tích hàm", "Lý thuyết không gian mêtric", "Phân tích Thống kê", "Phân tích đa biến", "Phân tích chuỗi thời gian"]
+        },
+        {
+          "category": "Ngôn ngữ Lập trình",
+          "items": ["Lập trình R", "Python", "Julia", "MATLAB", "SQL / MySQL", "JavaScript", "HTML5 / CSS3"]
+        },
+        {
+          "category": "Công cụ Phát triển",
+          "items": ["Git & GitHub", "Power BI / Tableau", "VS Code"]
+        },
+        {
+          "category": "Lập trình Báo cáo & Tài liệu",
+          "items": ["R Markdown / Quarto", "Jupyter Notebook", "LaTeX / Prism"]
+        }
+      ]
+    },
+    "education": {
+      "title": "Trình độ",
+      "titleSpan": "Học vấn",
+      "labels": {
+        "thesis": "Luận văn",
+        "focus": "Trọng tâm",
+        "gpa": "GPA"
+      },
+      "items": [
+        {
+          "school": "Trường Đại học Cần Thơ",
+          "major": "Thạc sĩ Toán ứng dụng",
+          "thesis": "Đang cập nhật...",
+          "knowledge": "Học máy (Machine Learning), Phân tích đa biến, Thống kê nâng cao",
+          "gpa": "Đang cập nhật...",
+          "period": "05/2026 - Hiện tại"
+        },
+        {
+          "school": "Trường Đại học Cần Thơ",
+          "major": "Cử nhân Toán ứng dụng",
+          "thesis": "Phép tính Vi phân trong Không gian Định chuẩn",
+          "knowledge": "Chuỗi thời gian, Thống kê Y sinh, Giải tích thực",
+          "gpa": "3.65 / 4.0",
+          "period": "10/2022 - 10/2025"
+        }
+      ]
+    },
+    "research": {
+      "title": "Hồ sơ",
+      "titleSpan": "Nghiên cứu",
+      "labels": {
+        "journal": "Tạp chí",
+        "abstract": "Tóm tắt",
+        "keyword": "Từ khóa"
+      },
+      "items": [
+        {
+          "journal": "Đang tìm kiếm",
+          "name": "Phát triển thuật toán tìm kiếm tham số cho mô hình SARIMA",
+          "asbtracs": "",
+          "key": ["SARIMA", "tìm kiếm lưới", "tìm kiếm từng bước", "tối ưu hóa tham số"],
+          "status": "Đang thực hiện",
+          "view": "#"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Dự ",
+      "titleSpan": "án",
+      "items": [
+        {
+          "name": "Dự báo Doanh thu: Kinh doanh Cà phê",
+          "image": "assets/cfsale.png",
+          "description": "Xây dựng mô hình dự báo chuỗi thời gian SARIMA với dữ liệu chu kỳ hàng ngày; sai số MAPE trên tập kiểm thử đạt 24.65%.",
+          "tech": ["Kaggle", "R", "SARIMA"],
+          "demo": "#",
+          "github": "https://tranphuc-am.github.io/Personal-Project/CfPrice_Ver1.html"
+        },
+        {
+          "name": "Báo cáo Phân tích Khách hàng Rời bỏ",
+          "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80",
+          "description": "Phân tích thống kê tỷ lệ rời bỏ của khách hàng (20.37%). Xác định nhóm khách hàng có rủi ro cao thông qua phân đoạn đa biến.",
+          "tech": ["R", "Power BI", "EDA"],
+          "demo": "#",
+          "github": "https://github.com/TranPhuc-AM/Churn_customer/blob/main/PowerBI_dash.pdf"
+        }
+      ]
+    },
+    "certificates": {
+      "title": "Chứng chỉ &",
+      "titleSpan": "Giải thưởng",
+      "items": [
+        {
+          "name": "Chứng chỉ Chuyên môn Google Advanced Data Analytics",
+          "issuer": "Google trên Coursera",
+          "period": "06/2025 - 07/2025",
+          "credentialId": "Mã xác thực",
+          "details": "Tập trung vào mô hình hóa dự báo, phân tích hồi quy, phương pháp thống kê và Python (Pandas, Scikit-learn)."
+        },
+        {
+          "name": "Chứng chỉ Chuyên môn Google Data Analytics",
+          "issuer": "Google trên Coursera",
+          "period": "04/2025 - 05/2025",
+          "credentialId": "Mã xác thực",
+          "details": "Đào tạo kỹ năng làm sạch dữ liệu, trực quan hóa với Tableau, tối ưu hóa truy vấn SQL và tư duy phân tích định lượng."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Thông tin",
+      "titleSpan": "Liên hệ",
+      "subtitle": "Luôn sẵn sàng hợp tác trong các nghiên cứu định lượng và dự án dữ liệu.",
+      "namePlaceholder": "Họ và tên",
+      "emailPlaceholder": "Email liên hệ",
+      "subjectPlaceholder": "Tiêu đề",
+      "messagePlaceholder": "Nội dung tin nhắn...",
+      "sendBtn": "Gửi tin nhắn"
     }
-  ],
-  "achievements": [
-    {
-      "title": "Giải Nhất Hackathon Mùa Xuân",
-      "competition": "VN Tech Hackathon",
-      "year": "2023"
-    }
-  ],
+  },
   "socials": {
     "facebook": "#",
     "github": "https://github.com/TranPhuc-AM",

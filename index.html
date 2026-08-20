@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | CV Applied Mathematics</title>
-    <meta name="description" content="Portfolio of Ms Applied Mathematics.">
+    <title>Academic Portfolio | Applied Mathematics & Data Science</title>
+    <meta name="description" content="Academic Curriculum Vitae & Data Science Portfolio.">
+    <!-- Clean Technical & Academic Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,18 +21,30 @@
 
     <header id="header">
         <nav class="container navbar">
-            <a href="#" class="logo">Port<span>folio</span></a>
-            <ul class="nav-links">
-                <li><a href="#hero" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <!-- <li><a href="#experience">Experience</a></li> -->
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-toggle" id="mobile-menu">
-                <i class="fas fa-bars"></i>
+            <a href="#" class="logo">Phuc.<span>AM/DS</span></a>
+            
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#hero" id="nav-home" class="active">Home</a></li>
+                    <li><a href="#about" id="nav-about">About</a></li>
+                    <li><a href="#education" id="nav-education">Education</a></li>
+                    <li><a href="#research" id="nav-research">Research</a></li>
+                    <li><a href="#skills" id="nav-skills">Skills</a></li>
+                    <li><a href="#projects" id="nav-projects">Projects</a></li>
+                    <li><a href="#certificates" id="nav-certificates">Certificates</a></li>
+                    <li><a href="#contact" id="nav-contact">Contact</a></li>
+                </ul>
+
+                <!-- Technical Language Switcher Switch -->
+                <div class="lang-switcher">
+                    <button id="btn-en" class="lang-btn active" onclick="switchLanguage('en')">EN</button>
+                    <span class="lang-divider">|</span>
+                    <button id="btn-vi" class="lang-btn" onclick="switchLanguage('vi')">VI</button>
+                </div>
+
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </nav>
     </header>
@@ -40,13 +53,13 @@
         <section id="hero" class="hero section-padding reveal">
             <div class="container hero-content">
                 <div class="hero-text">
-                    <h3>Hi! My name is</h3>
+                    <div class="tech-badge"><i class="fas fa-terminal"></i> Status: Researching & Developing</div>
                     <h1 id="hero-name">Loading...</h1>
-                    <h2 class="typing-container">I'm <span id="hero-title" class="typing-text"></span><span class="cursor">|</span></h2>
+                    <h2 class="typing-container">&gt; <span id="hero-title" class="typing-text"></span><span class="cursor">_</span></h2>
                     <p id="hero-desc">Loading description...</p>
                     <div class="hero-btns">
-                        <a href="#" class="btn btn-primary ripple">Download CV</a>
-                        <a href="#contact" class="btn btn-outline ripple">Contact</a>
+                        <a href="#" id="hero-cv-btn" class="btn btn-primary ripple">Download CV</a>
+                        <a href="#contact" id="hero-contact-btn" class="btn btn-outline ripple">Contact</a>
                     </div>
                 </div>
                 <div class="hero-image glass-card">
@@ -57,101 +70,76 @@
 
         <section id="about" class="about section-padding reveal">
             <div class="container">
-                <h2 class="section-title">About <span>me</span></h2>
+                <h2 class="section-title" id="about-title">About <span>Me</span></h2>
                 <div class="about-content glass-card">
                     <div class="about-text">
                         <p id="about-desc"></p>
-                        <p><strong>Target:</strong> <span id="about-goal"></span></p>
+                        <p class="target-box"><strong id="about-goal-label">Target:</strong> <span id="about-goal"></span></p>
                     </div>
-                    <div class="about-info" id="about-info">
-                        </div>
+                    <div class="about-info" id="about-info"></div>
                 </div>
             </div>
-            
+        </section>
+
+        <section id="education" class="timeline-section section-padding reveal">
+            <div class="container">
+                <h2 class="section-title" id="education-title">Academic <span>Background</span></h2>
+                <div class="timeline" id="education-container"></div>
+            </div>
+        </section>
+
+        <section id="research" class="research section-padding reveal">
+            <div class="container">
+                <h2 class="section-title" id="research-title">Research <span>portfolio</span></h2>
+                <div class="timeline" id="research-container"></div>
+            </div>
         </section>
 
         <section id="skills" class="skills section-padding reveal">
             <div class="container">
-                <h2 class="section-title">Ski<span>lls</span></h2>
-                <div class="skills-grid" id="skills-container">
-                    </div>
+                <h2 class="section-title" id="skills-title">Technical <span>Skills</span></h2>
+                <div class="skills-grid" id="skills-container"></div>
             </div>
         </section>
 
-        <!-- <section id="experience" class="timeline-section section-padding reveal">
-            <div class="container">
-                <div class="timeline-grid">
-
-                    <div>
-                        <h2 class="section-title">Exper<span>ience</span></h2>
-                        <div class="timeline" id="experience-container">
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <section id="education" class="timeline-section section-padding reveal">
-            <div class="container">
-                <!-- <div class="timeline-grid" style="grid-template-columns: 1fr; max-width: 600px; margin: 0 auto;"> -->
-                    <div>
-                        <h2 class="section-title">Edu<span>cation</span></h2>
-                        <div class="timeline" id="education-container">
-                            </div>
-                    </div>
-                <!-- </div> -->
-            </div>
-        </section>
 
         <section id="projects" class="projects section-padding reveal">
             <div class="container">
-                <h2 class="section-title">Pro<span>jects</span></h2>
-                <div class="projects-grid" id="projects-container">
-                    </div>
+                <h2 class="section-title" id="projects-title">Proj<span>ects</span></h2>
+                <div class="projects-grid" id="projects-container"></div>
             </div>
         </section>
 
-        <section id="awards" class="awards section-padding reveal">
+        <section id="certificates" class="timeline-section section-padding reveal">
             <div class="container">
-                <!-- <div class="awards-grid"> -->
-                    <div>
-                        <h2 class="section-title">Certif<span>icates</span></h2>
-                        <div class="cards-list" id="certificates-container">
-                            </div>
-                    </div>
-                    <!-- <div>
-                        <h2 class="section-title">Thành <span>Tựu</span></h2>
-                        <div class="cards-list" id="achievements-container">
-                            </div>
-                    </div> -->
-                <!-- </div> -->
+                <h2 class="section-title" id="certificates-title">Certifications & <span>Awards</span></h2>
+                <div class="timeline" id="certificates-container"></div>
             </div>
         </section>
 
         <section id="contact" class="contact section-padding reveal">
             <div class="container">
-                <h2 class="section-title">Con<span>tact</span></h2>
+                <h2 class="section-title" id="contact-title">Contact <span>Information</span></h2>
                 <div class="contact-wrapper glass-card">
                     <div class="contact-info">
-                        <h3>Contact me</h3>
-                        <p>Always open to new collaboration opportunities. Please leave me a message!</p>
-                        <div class="social-links" id="social-container">
-                            </div>
+                        <h3 id="contact-subheading">Contact Me</h3>
+                        <p id="contact-subtitle"></p>
+                        <div class="social-links" id="social-container"></div>
                     </div>
                     <form id="contact-form" class="contact-form">
                         <div class="input-group">
-                            <input type="text" id="name" required placeholder="Name">
+                            <input type="text" id="input-name" required placeholder="Name">
                         </div>
                         <div class="input-group">
-                            <input type="email" id="email" required placeholder="Email">
+                            <input type="email" id="input-email" required placeholder="Email">
                         </div>
                         <div class="input-group">
-                            <input type="text" id="subject" required placeholder="Title">
+                            <input type="text" id="input-subject" required placeholder="Subject">
                         </div>
                         <div class="input-group">
-                            <textarea id="message" rows="5" required placeholder="Your content"></textarea>
+                            <textarea id="input-message" rows="5" required placeholder="Your message..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary ripple">Send<i class="fas fa-paper-plane"></i></button>
+                        <button type="submit" id="contact-submit-btn" class="btn btn-primary ripple">Send Message <i class="fas fa-paper-plane"></i></button>
                     </form>
                 </div>
             </div>
