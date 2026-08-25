@@ -35,7 +35,7 @@
       "categories": [
         {
           "category": "Core Mathematics",
-          "items": ["Functional analysis", "Metric space theory", "Statistics Analysis", "Multivariate Analysis", "Time Series Analysis"]
+          "items": ["Functional analysis", "Metric space theory", "Statistical Analysis", "Multivariate Analysis", "Time Series Analysis"]
         },
         {
           "category": "Language",
@@ -88,11 +88,11 @@
       },
       "items": [
         {
-          "journal": "Searching...",
-          "name": "Developing a parameter search algorithm for the SARIMA model",
+          "journal": "*",
+          "name": "*",
           "asbtracs": "",
-          "key": ["SARIMA", "gird search", "step-wise search", "optimization parameter"],
-          "status": "Currently being implemented",
+          "key": [],
+          "status": "*",
           "view": "#"
         }
       ]
@@ -240,11 +240,11 @@
       },
       "items": [
         {
-          "journal": "Đang tìm kiếm",
-          "name": "Phát triển thuật toán tìm kiếm tham số cho mô hình SARIMA",
-          "asbtracs": "",
-          "key": ["SARIMA", "tìm kiếm lưới", "tìm kiếm từng bước", "tối ưu hóa tham số"],
-          "status": "Đang thực hiện",
+          "journal": "*",
+          "name": "*",
+          "asbtracs": "*",
+          "key": [],
+          "status": "*",
           "view": "#"
         }
       ]
