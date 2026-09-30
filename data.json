@@ -39,7 +39,7 @@
         },
         {
           "category": "Language",
-          "items": ["R Programming", "Python", "Julia", "SQL / MySQL", "JavaScript", "HTML5 / CSS3"]
+          "items": ["R Programming", "Python", "Matlab", "SQL / MySQL", "JavaScript / HTML5 / CSS3"]
         },
         {
           "category": "Development tools",
@@ -191,7 +191,7 @@
         },
         {
           "category": "Ngôn ngữ Lập trình",
-          "items": ["Lập trình R", "Python", "Julia", "MATLAB", "SQL / MySQL", "JavaScript", "HTML5 / CSS3"]
+          "items": ["Ngôn ngữ R", "Python", "MATLAB", "SQL / MySQL", "JavaScript / HTML5 / CSS3"]
         },
         {
           "category": "Công cụ Phát triển",
