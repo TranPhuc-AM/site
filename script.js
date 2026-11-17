@@ -57,6 +57,12 @@ function renderAll(lang) {
     const langData = globalData[lang];
     if (!langData) return;
 
+    document.documentElement.lang = lang;
+    document.body.dataset.lang = lang;
+    document.getElementById('hero-status').textContent = lang === 'vi'
+        ? 'Nghiên cứu & phát triển'
+        : 'Researching & developing';
+
     // Update Language Switcher UI
     document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
     const activeBtn = document.getElementById(`btn-${lang}`);
