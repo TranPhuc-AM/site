@@ -35,7 +35,7 @@
       "categories": [
         {
           "category": "Core Mathematics",
-          "items": ["Metric space theory", "Statistics Analysis", "Multivariate Analysis", "Time Series Analysis"]
+          "items": ["Functional Analysis", "Statistical Analysis", "Multivariate Analysis", "Time Series Analysis"]
         },
         {
           "category": "Language",
@@ -187,7 +187,7 @@
       "categories": [
         {
           "category": "Toán học Nền tảng",
-          "items": ["Giải tích hàm", "Lý thuyết không gian mêtric", "Phân tích Thống kê", "Phân tích đa biến", "Phân tích chuỗi thời gian"]
+          "items": ["Giải tích hàm", "Phân tích Thống kê", "Phân tích đa biến", "Phân tích chuỗi thời gian"]
         },
         {
           "category": "Ngôn ngữ Lập trình",
