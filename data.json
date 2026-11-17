@@ -35,11 +35,11 @@
       "categories": [
         {
           "category": "Core Mathematics",
-          "items": ["Functional analysis", "Metric space theory", "Statistical Analysis", "Multivariate Analysis", "Time Series Analysis"]
+          "items": ["Metric space theory", "Statistics Analysis", "Multivariate Analysis", "Time Series Analysis"]
         },
         {
           "category": "Language",
-          "items": ["R Programming", "Python", "Matlab", "SQL / MySQL", "JavaScript / HTML5 / CSS3"]
+          "items": ["R Programming", "Python", "Julia", "SQL / MySQL", "HTML5 / CSS3 / JavaScript"]
         },
         {
           "category": "Development tools",
@@ -88,11 +88,11 @@
       },
       "items": [
         {
-          "journal": "*",
-          "name": "*",
+          "journal": "",
+          "name": "",
           "asbtracs": "",
-          "key": [],
-          "status": "*",
+          "key": ["", "", "", ""],
+          "status": "",
           "view": "#"
         }
       ]
@@ -191,7 +191,7 @@
         },
         {
           "category": "Ngôn ngữ Lập trình",
-          "items": ["Ngôn ngữ R", "Python", "MATLAB", "SQL / MySQL", "JavaScript / HTML5 / CSS3"]
+          "items": ["Lập trình R", "Python", "Julia", "MATLAB", "SQL / MySQL", "JavaScript", "HTML5 / CSS3"]
         },
         {
           "category": "Công cụ Phát triển",
@@ -240,11 +240,11 @@
       },
       "items": [
         {
-          "journal": "*",
-          "name": "*",
-          "asbtracs": "*",
-          "key": [],
-          "status": "*",
+          "journal": "",
+          "name": "",
+          "asbtracs": "",
+          "key": ["", "", "", ""],
+          "status": "",
           "view": "#"
         }
       ]
